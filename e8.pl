@@ -6,6 +6,6 @@ print "\$data{'John Paul'} = $data{'John Paul'}\n";
 print "\$data{'Lisa'} = $data{'Lisa'}\n";
 print "\$data{'Kumar'} = $data{'Kumar'}\n";
 
-$data{'John Paul'} = 45;
-$data{'Lisa'} = 30;
-$data{'Kumar'} = 40;
+$data{'John Paul'} = 20;
+$data{'Lisa'} = 15;
+$data{'Kumar'} = 60;

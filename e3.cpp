@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <time.h>
 
+int counter=0;
+
 int** multiply(int **a,int **b,int n)
 {
     int **c=new int*[n];
@@ -12,7 +14,10 @@ int** multiply(int **a,int **b,int n)
         for(int j=0;j<n;j++) 
         {
             for(int k=0;k<n;k++)
+            {
                 c[i][j]+=a[i][k]*b[k][j];
+                counter++;
+            }
         }
     }
     return c;
@@ -40,7 +45,7 @@ void print(int** a,int n)
 
 int main()
 {
-    int n=6;
+    int n=7;
     
     int **a=new int*[n];
     for(int i=0;i<n;i++)
@@ -60,6 +65,8 @@ int main()
     
     int **c=multiply(a,b,n);
     print(c,n);
+
+    printf("Conteo: %d\n",counter);
     
     return 0;
 }
