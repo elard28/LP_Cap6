@@ -1,7 +1,7 @@
 # LP_Cap6
 1. En lo que respecta a operaciones con enteros en int se redondea y en char se da una conversion
 2. Free sirve para liberar el espacio de memoria asignado
-3.  
+3. Se requieren casi diez veces mas lineas de codigo ya que procesa cada instruccion paso a paso desde tomando en cuenta que una sola instruccion en c++ se procesa en varias lineas de codigo assembler
 4. 
 5.
 6. 
